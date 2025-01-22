@@ -5,8 +5,9 @@
     "target": "es6",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "lib":  ["ES6", "DOM","lib"],
+    "lib":  ["es6"],
     "strict": true,
-    "allowJs": true
+    "esModuleInterop": true,
+    "module": "CommonJS"
   }
 }
